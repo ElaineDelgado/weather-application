@@ -1,32 +1,29 @@
-<div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Weather Application" />
-
-  &#xa0;
-
-  <!-- <a href="https://weatherapplication.netlify.app">Demo</a> -->
-</div>
 
 <h1 align="center">Weather Application</h1>
+<h2 align="center"><a href="https://picweather.netlify.app/">Você pode testá-lo aqui!</a> </h2>
 
+<br>
+<br>
 <p align="center">
   <img alt="Github top language" src="https://img.shields.io/github/languages/top/ElaineDelgado/weather-application?color=56BEB8">
 
   <img alt="Github language count" src="https://img.shields.io/github/languages/count/ElaineDelgado/weather-application?color=56BEB8">
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ElaineDelgado/weather-application?color=56BEB8">
+	<br>
+<br>
 </p>
 
-<!-- Status -->
 
- <h4 align="center"> 
-	🚧  Weather Application 🚀 Under construction...  🚧
-</h4> 
+Versão Web                 |  Versão Mobile
+:-------------------------:|:-------------------------:
+![Web ](https://i.imgur.com/jlHm7Xj.png) |  ![Mobile](https://i.imgur.com/pK75Be1.png)
+
 
 <hr>
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#sparkles-features">Features</a> &#xa0; | &#xa0;
   <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
@@ -38,27 +35,22 @@
 
 ## :dart: About ##
 
-Describe your project
+App criado durante o treinamento Javascript CJRM, onde devemos contruir uma aplicação que consulta o clima utilizando uma API externa.
 
-## :sparkles: Features ##
-
-:heavy_check_mark: Feature 1;\
-:heavy_check_mark: Feature 2;\
-:heavy_check_mark: Feature 3;
 
 ## :rocket: Technologies ##
 
 The following tools were used in this project:
 
-- [Expo](https://expo.io/)
-- [Node.js](https://nodejs.org/en/)
-- [React](https://pt-br.reactjs.org/)
-- [React Native](https://reactnative.dev/)
-- [TypeScript](https://www.typescriptlang.org/)
+- [Javascript]
+- [HTML]
+- [CSS]
+- [Bootstrap]
+
 
 ## :white_check_mark: Requirements ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) and [Node](https://nodejs.org/en/) installed.
+Before starting :checkered_flag:, you need to have [Git](https://git-scm.com).
 
 ## :checkered_flag: Starting ##
 
@@ -66,22 +58,8 @@ Before starting :checkered_flag:, you need to have [Git](https://git-scm.com) an
 # Clone this project
 $ git clone https://github.com/ElaineDelgado/weather-application
 
-# Access
-$ cd weather-application
-
-# Install dependencies
-$ yarn
-
-# Run the project
-$ yarn start
-
-# The server will initialize in the <http://localhost:3000>
+Go to the paste you've just cloned, then and right-click on index.html file => open with => choose your browser.
 ```
-
-## :memo: License ##
-
-This project is under license from MIT. For more details, see the [LICENSE](LICENSE.md) file.
-
 
 Made with :heart: by <a href="https://github.com/ElaineDelgado" target="_blank">Elaine Delgado</a>
 

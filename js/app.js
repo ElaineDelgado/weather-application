@@ -5,28 +5,36 @@ const cityTemperatureContainer = document.querySelector(
   '[data-js="city-temperature"]',
 )
 const cityCard = document.querySelector('[data-js="city-card"]')
-const timeImg= document.querySelector('[data-js="time"]')
-const timeImgIcon= document.querySelector('[data-js="time-icon"]')
-// const cityWeatherIconContainer = document.querySelector(
-//   '[data-js="city-weather-icon"]',
-// )
+let timeImg = document.querySelector('[data-js="time"]')
+const timeIconContainer = document.querySelector('[data-js="time-icon"]')
 
 cityForm.addEventListener('submit', async (event) => {
   event.preventDefault()
   
   const inputValue = event.target.city.value
-  const [name, {temperature, weather_descriptions}] = await getCityData(inputValue)
+  const [city, { temperature, weather_descriptions, is_day, weather_icons }] =
+    await getCityData(inputValue)
+  const timeIcon = `<img class="time-icon" src="${weather_icons[0]}"/>`
 
   if (cityCard.classList.contains('d-none')) {
     cityCard.classList.remove('d-none')
   }
-    console.log(city, temperature, weather_descriptions[0])
 
+is_day === 'yes'
+  ? (timeImg.src = './src/day.svg')
+  : (timeImg.src = './src/night.svg') 
+
+    console.log(
+      city,
+      temperature,
+      weather_descriptions[0],
+      is_day,
+      weather_icons[0])
+
+  timeIconContainer.innerHTML = timeIcon
   cityNameContainer.innerText = city
   cityweatherContainer.innerText = weather_descriptions[0]
   cityTemperatureContainer.innerText = temperature
-  // const iconSRC = weatherCityData.weather.weather_icons[0]
-  // cityWeatherIconContainer.setAttribute('src', iconSRC)
 
   cityForm.reset()
 

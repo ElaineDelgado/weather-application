@@ -1,6 +1,6 @@
 /* Para informações sobre a API ler o README.md */
 
-const APIKey = 'a06df172b652ab7bd6b279ae95310bbc'
+const APIKey = '422499b6dd8c9fb1e08d38bd081f4c1e'
 
 const getCityUrl = (cityName) =>
   `http://api.weatherstack.com/current?access_key=${APIKey}&query=${cityName}`

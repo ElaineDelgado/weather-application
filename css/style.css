@@ -1,16 +1,37 @@
 body {
   background: linear-gradient(to top left, #0099ff 0%, #0033cc 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
 }
 
 .container {
-  max-width: 400px;
+  max-width: 990px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header-container {
+  justify-content: space-evenly;
+  align-items:center ;
 }
 
 h1 {
   font-size: 2.2rem;
 }
 
+article.card {
+  transition: all 0.3s;
+}
+
 img.time-icon {
   max-width: 35px;
   border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .container {
+  padding: 20px;
+  }
 }

@@ -1,5 +1,3 @@
-/* Para informações sobre a API ler o README.md */
-
 const APIKey = '422499b6dd8c9fb1e08d38bd081f4c1e'
 
 const getCityUrl = (cityName) =>
@@ -22,12 +20,9 @@ const fetchData = async (url) => {
 const getCityData = async (cityName) => {
   const cityURL = getCityUrl(cityName)
   const {
-    location: { name },
-    current,
+    location: { name: city },
+    current: weatherInfo,
   } = await fetchData(cityURL)
 
-  return [name, current]
+  return [city, weatherInfo]
 }
-
-getCityData('tiradentes').then(console.log)
-

@@ -1,7 +1,7 @@
 const APIKey = '422499b6dd8c9fb1e08d38bd081f4c1e'
 
 const getCityUrl = (cityName) =>
-  `http://api.weatherstack.com/current?access_key=${APIKey}&query=${cityName}`
+  `https://api.weatherstack.com/current?access_key=${APIKey}&query=${cityName}`
 
 const fetchData = async (url) => {
   try {

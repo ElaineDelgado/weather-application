@@ -41,11 +41,23 @@ const handleFormSubmit = (event) => {
   event.preventDefault()
 
   const inputValue = event.target.city.value
-
+  
   showCityCard()
   showCityWeatherInfo(inputValue)
-
+  
+  localStorage.setItem('city', inputValue)
   cityForm.reset()
 }
 
+const showLocalStorageCity = () => {
+  const city = localStorage.getItem('city')
+  
+  if(city) {
+    showCityCard()
+    showCityWeatherInfo(city)
+  }
+}
+
 cityForm.addEventListener('submit', handleFormSubmit)
+
+showLocalStorageCity() 

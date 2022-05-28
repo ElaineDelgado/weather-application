@@ -1,6 +1,6 @@
 
 <h1 align="center">Weather Application</h1>
-<h2 align="center"><a href="https://picweather.netlify.app/">Você pode testá-lo aqui!</a> </h2>
+<!-- <h2 align="center"><a href="https://picweather.netlify.app/">Você pode testá-lo aqui!</a> </h2> -->
 
 <br>
 <br>

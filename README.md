@@ -35,7 +35,7 @@ Versão Web                 |  Versão Mobile
 
 ## :dart: About ##
 
-App criado durante o treinamento Javascript CJRM, onde devemos contruir uma aplicação que consulta o clima utilizando uma API externa.
+App criado durante o treinamento Javascript CJRM, onde devemos construir uma aplicação que consulta o clima utilizando uma API externa.
 
 
 ## :rocket: Technologies ##

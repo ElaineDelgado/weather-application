@@ -19,22 +19,16 @@ const showCityCard = () => {
 
 const showCityWeatherInfo = async (cityName) => {
   
-  const [
-    city,
-    {
-      temperature,
-      weather_descriptions: [weatherDescription],
-      is_day,
-      weather_icons,
-    },
-  ] = await getCityData(cityName)
-  const timeIcon = `<img class="time-icon" src="${weather_icons[0]}"/>`
+  const [city, {condition, temp_c, is_day}] = await getCityData(cityName)
+  console.log(city, condition.text)
   
-  timeImg.src  = is_day ==='yes' ? './src/day.svg' : './src/night.svg'
+  const timeIcon = `<img class="time-icon" src="${condition.icon}"/>`
+  
+  timeImg.src  = is_day === 1 ? './src/day.svg' : './src/night.svg'
   timeIconContainer.innerHTML = timeIcon
   cityNameContainer.innerText = city
-  cityweatherContainer.innerText = weatherDescription
-  cityTemperatureContainer.innerText = temperature
+  cityweatherContainer.innerText = condition.text
+  cityTemperatureContainer.innerText = temp_c
   
   showCityCard()
 }

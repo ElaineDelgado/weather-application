@@ -1,7 +1,7 @@
-const APIKey = '422499b6dd8c9fb1e08d38bd081f4c1e'
+const APIKey = '585fd43ab04b431dbc7114516221406'
 
 const getCityUrl = (cityName) =>
-  `http://api.weatherstack.com/current?access_key=${APIKey}&query=${cityName}`
+`https://api.weatherapi.com/v1/current.json?key=585fd43ab04b431dbc7114516221406&q=${cityName}&aqi=yes`
 
 const fetchData = async (url) => {
   try {
@@ -18,11 +18,12 @@ const fetchData = async (url) => {
 }
 
 const getCityData = async (cityName) => {
-  const cityURL = getCityUrl(cityName)
   const {
-    location: { name: city },
     current: weatherInfo,
-  } = await fetchData(cityURL)
+    location: { name: city },
+  } = await fetchData(cityName)
 
   return [city, weatherInfo]
 }
+
+

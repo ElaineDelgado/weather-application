@@ -1,6 +1,6 @@
 
 <h1 align="center">Weather Application</h1>
- <h2 align="center"><a href="https://appweathercjrm.netlify.app/">Você pode testá-lo aqui!</a> </h2> 
+ <h2 align="center"><a href="https://appweathercjrm.netlify.app/">Você pode testá-lo clicando aqui!</a> </h2> 
 
 <br>
 <br>
@@ -24,23 +24,21 @@ Versão Web                 |  Versão Mobile
 
 <p align="center">
   <a href="#dart-about">About</a> &#xa0; | &#xa0; 
-  <a href="#rocket-technologies">Technologies</a> &#xa0; | &#xa0;
-  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
-  <a href="#checkered_flag-starting">Starting</a> &#xa0; | &#xa0;
-  <a href="#memo-license">License</a> &#xa0; | &#xa0;
-  <a href="https://github.com/ElaineDelgado" target="_blank">Author</a>
+  <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requerimentos</a> &#xa0; | &#xa0;
+  <a href="#checkered_flag-starting">Iniciando</a> &#xa0;  &#xa0;
 </p>
 
 <br>
 
-## :dart: About ##
+## :dart: Sobre ##
 
 App criado durante o treinamento Javascript CJRM, onde devemos construir uma aplicação que consulta o clima utilizando uma API externa.
 
 
-## :rocket: Technologies ##
+## :rocket: Tecnologias##
 
-The following tools were used in this project:
+Nesse projeto foram utilizados:
 
 - [Javascript]
 - [HTML]
@@ -48,20 +46,23 @@ The following tools were used in this project:
 - [Bootstrap]
 
 
-## :white_check_mark: Requirements ##
+## :white_check_mark: Requerimentos ##
 
-Before starting :checkered_flag:, you need to have [Git](https://git-scm.com).
+Antes de começar :checkered_flag:, você precisar [Git](https://git-scm.com).
 
-## :checkered_flag: Starting ##
+## :checkered_flag: Iniciando ##
 
 ```bash
-# Clone this project
+# Clone esse projeto
 $ git clone https://github.com/ElaineDelgado/weather-application
 
-Go to the paste you've just cloned, then and right-click on index.html file => open with => choose your browser.
+Vá até a pasta onde você clonou o projeto, dê um clique com botão direito em index.html, vá até 'Abrir com' e escolha o browser de sua preferência.
 ```
 
-Made with :heart: by <a href="https://github.com/ElaineDelgado" target="_blank">Elaine Delgado</a>
+Feito com :heart: por <a href="https://github.com/ElaineDelgado" target="_blank">Elaine Delgado</a>
+
+## Meus mais profundos e sinceros agradecimentos ao Roger Melo, um professor, um mestre, um mentor incrível!
+
 
 &#xa0;
 

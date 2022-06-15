@@ -7,7 +7,7 @@ const cityTemperatureContainer = document.querySelector(
 const cityCard = document.querySelector('[data-js="city-card"]')
 const timeIconContainer = document.querySelector('[data-js="time-icon"]')
 
-let timeImg = document.querySelector('[data-js="time"]')
+// let timeImg = document.querySelector('[data-js="time"]')
 
 const cityIsNotVisible  = cityCard.classList.contains('d-none')
 
@@ -24,7 +24,9 @@ const showCityWeatherInfo = async (cityName) => {
   
   const timeIcon = `<img class="time-icon" src="${condition.icon}"/>`
   
-  timeImg.src  = is_day === 1 ? './src/day.svg' : './src/night.svg'
+  // timeImg.src  = is_day === 1 ? './src/day.svg' : './src/night.svg'
+  const backgroundImageUrl = is_day === 1 ? './src/day.svg' : './src/night1.svg'
+  cityCard.style.backgroundImage = `url(${backgroundImageUrl })`
   timeIconContainer.innerHTML = timeIcon
   cityNameContainer.innerText = city
   cityweatherContainer.innerText = condition.text

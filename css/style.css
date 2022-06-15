@@ -30,6 +30,15 @@ img.time-icon {
   border-radius: 50%;
 }
 
+[data-js="weather-details"] {
+  background-color: rgba(239, 239, 239, 0.509)
+}
+
+[data-js="city-card"] {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 @media (max-width: 767px) {
   .container {
   padding: 20px;

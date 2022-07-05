@@ -23,7 +23,7 @@ Versão Web                 |  Versão Mobile
 <hr>
 
 <p align="center">
-  <a href="#dart-about">About</a> &#xa0; | &#xa0; 
+  <a href="#dart-about">Sobre</a> &#xa0; | &#xa0; 
   <a href="#rocket-technologies">Tecnologias</a> &#xa0; | &#xa0;
   <a href="#white_check_mark-requirements">Requerimentos</a> &#xa0; | &#xa0;
   <a href="#checkered_flag-starting">Iniciando</a> &#xa0;  &#xa0;

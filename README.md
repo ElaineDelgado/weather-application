@@ -17,7 +17,7 @@
 
 Versão Web                 |  Versão Mobile
 :-------------------------:|:-------------------------:
-![Web ](https://i.imgur.com/jlHm7Xj.png) |  ![Mobile](https://i.imgur.com/pK75Be1.png)
+![Web ](https://i.imgur.com/wkHxgPh.png) |  ![Mobile](https://i.imgur.com/URaC62K.png)
 
 
 <hr>
